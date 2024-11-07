@@ -91,6 +91,13 @@ footer {
     text-decoration: none;
 }
 
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: 0;
+}
+
 main {
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -118,8 +125,34 @@ form {
 
 form .row {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
+}
+
+.select-donation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px black;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 12px;
+    background: rgb(118, 79, 68);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn1:hover {
+    background: #6a5acd;
 }
 
 .row .column {
@@ -131,11 +164,12 @@ form .row {
     color: #333;
     text-transform: uppercase;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .column .input-box {
     margin: 15px;
-    gap: 15px;
+    gap: 10px;
 }
 
 .input-box span {
@@ -144,7 +178,7 @@ form .row {
 }
 
 .input-box input {
-    width: 90%;
+    width: 95%;
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -153,7 +187,7 @@ form .row {
 
 .column .flex {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .flex .input-box {
@@ -167,7 +201,7 @@ form .row {
 }
 
 form .btn {
-    width: 100%;
+    width: 95%;
     padding: 12px;
     background: rgb(118, 79, 68);
     border: none;
@@ -175,7 +209,8 @@ form .btn {
     border-radius: 6px;
     font-size: 17px;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
     cursor: pointer;
     transition: .5s;
 }

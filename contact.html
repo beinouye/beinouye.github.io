@@ -33,26 +33,23 @@
 
     <div>
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeoqarvg" method="post">
-        <fieldset id="fs-frm-inputs">
           <br>
-          <label for="name" class="nunito">Name</label>
-          <br>
-          <input type="text" name="name" id="name" placeholder="Type your name here." required="">
+          <h3><label for="name">NAME</label></h3>
+          <input type="text" name="name" id="name" placeholder="" required="">
           <br>
           <br>
-          <label for="email-address" class="nunito">Email Address</label>
+          <h3><label for="email-address">EMAIL ADDRESS</label></h3>
+          <input type="email" name="_replyto" id="email-address" placeholder="" required="">
           <br>
-          <input type="email" name="_replyto" id="email-address" placeholder="Type your email address here." required="">
           <br>
-          <br>
-          <label for="message" class="nunito">Message</label>
-          <br>
-          <textarea rows="5" name="message" id="message" placeholder="Type your message here." required=""></textarea>
+          <h3><label for="message">MESSAGE</label></h3>
+          <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
           <br>
           <input type="submit" value="Submit">
         </fieldset>
-        </form></div>
+        </form>
+    </div>
 
     <footer class="cream-soda">
         <h3>I WOULD LOVE TO HEAR FROM YOU!</h3>

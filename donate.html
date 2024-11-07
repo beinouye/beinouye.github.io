@@ -29,65 +29,88 @@
 
    <main class="container border">
         <form action="">
+            <h2>SELECT DONATION AMOUNT</h2>
+            <div class="row select-donation">
+                <div>
+                    <input name="os0" type="radio" value="5.00">$5.00
+                </div>
+                <div>
+                    <input name="os0" type="radio" value="10.00">$10.00
+                </div>
+                <div>
+                    <input name="os0" type="radio" value="15.00">$15.00
+                </div>
+                <div>
+                    <input name="os0" type="radio" value="20.00">$20.00
+                </div>
+                <div>
+                    <input name="os0" type="radio" value="25.00">$25.00
+                </div>
+                <div>
+                    <input type="reset" class="btn1">
+                </div>
+            </div>
+            
+            
             <div class="row">
                 <div class="column">
                     <h3 class="title">Billing Address</h3>
                     <div class="input-box">
-                        <span>Full Name :</span>
+                        <span>Name :</span>
                         <input type="text" 
-                        placeholder="Type your name here">
+                        placeholder="" required="">
                     </div>
                     <div class="input-box">
                         <span>Email :</span>
                         <input type="email" 
-                        placeholder="example@example.com">
+                        placeholder="" required="">
                     </div>
                     <div class="input-box">
                         <span>Address :</span>
-                        <input type="text" placeholder="Street">
+                        <input type="text" placeholder="" required="">
                     </div>
                     <div class="input-box">
                         <span>City :</span>
-                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="" required="">
                     </div>
                     <div class="flex">
                         <div class="input-box">
                             <span>State :</span>
-                            <input type="text" placeholder="State">
+                            <input type="text" placeholder="" required="">
                         </div>
                         <div class="input-box">
                             <span>Zip Code :</span>
-                            <input type="text" placeholder="Zip Code">
+                            <input type="text" placeholder="" required="">
                         </div>
                     </div>
                 </div>
 
                 <div class="column">
-                    <h3 class="title">Payment</h3>
+                    <h2 class="title">Payment</h2>
                     <div class="input-box">
                         <span>Cards Accepted :</span>
                         <img src="https://danmarkgraphics.com/wp-content/uploads/2018/06/Major-Credit-Card-Logo-PNG-Clipart.png" alt="Major Credit Card Logos">
                     </div>
                     <div class="input-box">
                         <span>Name On Card :</span>
-                        <input type="text" placeholder="Type name here">
+                        <input type="text" placeholder="" required="">
                     </div>
                     <div class="input-box">
                         <span>Credit Card Number :</span>
-                        <input type="number" placeholder="1111 2222 3333 4444">
+                        <input type="text" placeholder="" required="">
                     </div>
                     <div class="input-box">
                         <span>Exp. Month :</span>
-                        <input type="text" placeholder="Month">
+                        <input type="text" placeholder="" required="">
                     </div>
                     <div class="flex">
                         <div class="input-box">
                             <span>Exp. Year :</span>
-                            <input type="number" placeholder="Year">
+                            <input type="text" placeholder="" required="">
                         </div>
                         <div class="input-box">
                             <span>CVV :</span>
-                            <input type="number" placeholder="123">
+                            <input type="text" placeholder="" required="">
                         </div>
                     </div>
                 </div>
