@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    margin: 0;
+    padding-left: 30px;
+    background-color: rgb(118, 79, 68);
+    border-bottom: 10px solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a1 {
+    color: black;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 15px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 10px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(118, 79, 68);
+}
+
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+img {
+    box-shadow: 3px 3px 10px rgba(0, 0, .1);
+    border-radius: 5px;
+}   
+
+.background-color {
+    background-color: #1779ba;
+}
+
+.background-color1 {
+    background-color: #006272
+}
+
+footer {
+    text-align: right;
+    color: white;
+    background-color: rgb(118, 79, 68);
+    padding: 5px 30px 5px 0px;
+    border-top: 10px solid black;
+}
+
+.send-flowers {
+    font-family: 'Send Flowers';font-size: 60px;
+    font-weight: bold;
+}
+    
+.cream-soda {
+    font-family: 'Cherry Cream Soda';font-size: 30px;
+}
+
+.montserrat {
+    font-family: 'Montserrat';font-size: 26px;
+}
+
+.nunito {
+    font-family: 'Nunito';font-size: 26px;
+}
+
+.font-color {
+    color: black;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.margin {
+    margin: 15px;
+}
+
+div {
+    margin-left: 150px;
+}
+
+.a-indent {
+    margin-left: 40px;
+}
+

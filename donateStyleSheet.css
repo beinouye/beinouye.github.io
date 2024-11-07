@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    margin: 0;
+    padding-left: 30px;
+    background-color: rgb(118, 79, 68);
+    border-bottom: 10px solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    margin: 15px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 10px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(118, 79, 68);
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+footer {
+    text-align: right;
+    color: white;
+    background-color: rgb(118, 79, 68);
+    padding: 5px 30px 5px 0px;
+    border-top: 10px solid black;
+}
+
+.send-flowers {
+    font-family: 'Send Flowers';font-size: 60px;
+    font-weight: bold;
+}
+    
+.cream-soda {
+    font-family: 'Cherry Cream Soda';font-size: 30px;
+}
+
+.montserrat {
+    font-family: 'Montserrat';font-size: 26px;
+}
+
+.nunito {
+    font-family: 'Nunito';font-size: 26px;
+}
+
+.font-color {
+    color: black;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.background-color {
+    background-color: rgb(118, 79, 68);
+}
+
+.a1 {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.container form {
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+form {
+    border: solid 5px black;
+    border-radius: 15px;
+}
+
+form .row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.row .column {
+    flex: 1 1 250px;
+}
+
+.column .title {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.column .input-box {
+    margin: 15px;
+    gap: 15px;
+}
+
+.input-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 90%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.column .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.flex .input-box {
+    margin-top: 5px;
+}
+
+.input-box img {
+    height: 30px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+form .btn {
+    width: 100%;
+    padding: 12px;
+    background: rgb(118, 79, 68);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form .btn:hover {
+    background: #6a5acd;
+}
