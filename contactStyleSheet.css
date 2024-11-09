@@ -99,7 +99,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #6a5acd;
+    background-color: rgba(118, 79, 68, 0.80)
 }
 
 label {
