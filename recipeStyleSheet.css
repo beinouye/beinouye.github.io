@@ -21,7 +21,7 @@ a:hover {
 }
 
 .a {
-    color: blue;
+    color: rgba(118, 79, 68, 0.80);
     text-decoration: none;
 }
 
@@ -170,4 +170,13 @@ footer {
 
 .margin {
     margin: 15px;
+}
+
+.important-note {
+    font-size: large;
+    font-style: normal;
+    text-align: justify;
+    margin: 20px 200px 20px 200px;
+    padding: 10px;
+    border: solid 5px black;
 }

@@ -25,6 +25,10 @@ a:hover {
     text-decoration: none;
 }
 
+/* .text-shadow {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white,-1px 1px 0 white, 1px 1px 0 white;
+} */
+
 ul li {
     margin: 15px 0px;
 }
@@ -103,5 +107,9 @@ div {
 
 .a-indent {
     margin-left: 40px;
+}
+
+.margin-left {
+    margin-left: 800px;
 }
 
