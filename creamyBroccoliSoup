@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamy Broccoli Soup</title>
+    <link rel="icon" type="image/x-icon" href="Photos/favicon.png">
+    <link rel="stylesheet" href="recipeStyleSheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Cherry Cream Soda' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Send Flowers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="aboutMe.html">About Me</a>
+            <a href="recipes.html">Recipes</a> 
+            <a href="information.html">Information</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </section>
+
+    <header>
+        <span class="send-flowers"><a href="index.html.html" class="a1">Simple Recipes</a></span>
+        <span class="cream-soda margin">for a Gluten Free Diet</span>    
+    </header>
+
+    <section class="title">
+        <h1 class="cream-soda hl">Creamy Broccoli Soup</h1>
+        <h3>Yield: 6-8 servings</h3>
+    </section>
+
+    <div class="cream-soda no-padding">
+        <h5>Ingredients</h5>
+        <h5>Directions</h5>
+    </div>
+
+    <div class="outer-container">
+        <div class="nunito container">
+                <ul>
+                    <li>1 lb broccoli florets</li>
+                    <li>4 cups chicken broth</li>
+                    <li>1 can cream of chicken soup</li>
+                    <li>8 oz pack cream cheese</li>
+                    <li>8 oz block cheddar cheese</li>
+                    <li>1 cup parmesan cheese</li>
+                    <li>1 bunch green onions</li>
+                    <li>1 bunch cilanto (optional)</li>
+                </ul>
+        </div>
+    
+        <div class="montserrat container1 vl">
+                <ol>
+                    <li>Add broccoli, chicken broth, cream of chicken soup, and cream cheese into a large pot or crockpot.</li>
+                    <li>Cook until broccoli is soft.</li> 
+                    <li>Add green onions.</li>
+                    <li>Blend ingredients in pot with an immersion blender or upright blender until smooth.</li> 
+                    <li>Stir in cheddar cheese and parmesan cheese and let heat until melted.</li>
+                    <li>Serve hot, topped with chopped cilantro if desired.</li>
+                </ol>
+        </div>
+    </div>
+
+    <!-- <img src="Recipe Photos/crepes.jpg" alt="picture of crepes" class="center frame"> -->
+
+    <section class="montserrat">
+        <p>So easy! So delicious!</p>
+    </section>
+
+    <footer class="cream-soda">
+        <h3>ENJOY!</h3>
+    </footer>
+</body>
+</html>
