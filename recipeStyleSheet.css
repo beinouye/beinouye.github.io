@@ -6,9 +6,9 @@ body {
 header {
     text-align: left;
     margin: 0;
-    padding-left: 30px;
+    padding-left: 1.875rem;
     background-color: rgb(118, 79, 68);
-    border-bottom: 10px solid black;
+    border-bottom: 0.625rem solid black;
 }
 
 a {
@@ -36,9 +36,9 @@ nav {
     align-items: center;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-top: 10px solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border-top: 0.624rem solid black;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
     background-color: rgb(118, 79, 68);
 }
 
@@ -49,15 +49,15 @@ nav {
 div {
     display: flex;
     justify-content: space-around;
-    padding-left: 50px;
+    padding-left: 3.125rem;
 }
 
 .no-padding {
-    padding: 0px;
+    padding: 0rem;
 }
 
 h5 {
-    margin: 0px 50px 0px 50px;
+    margin: 0rem 3.125rem 0rem 3.125rem;
 }
 
 h3 {
@@ -70,15 +70,15 @@ p{
     font-size: large;
     font-style: italic;
     text-align: center;
-    margin: 20px 300px 20px 300px;
+    margin: 1.25rem 18.75rem 1.25rem 18.75rem;
 }
 
 li {
-    margin: 15px 0px;
+    margin: 0.9375rem 0rem;
 }
 
 ol {
-    margin: 22px 50px 22px 0px;
+    margin: 1.375rem 3.125rem 1.375rem 0rem;
 }
 
 .outer-container{
@@ -87,26 +87,26 @@ ol {
 }
 
 .container { 
-    width: 675px; 
+    width: 42.1875rem; 
     height: fit-content;
-    padding: 0px 50px 0px 0px;
+    padding: 0rem 3.125rem 0rem 0rem;
  }
 
 .container1 {
-    width: 750px; 
+    width: 46.875rem; 
     height: fit-content;
-    padding: 0px 0px 0px 50px;
+    padding: 0rem 0rem 0rem 3.125rem;
 }
 
 .vl {
-    border-left: 3px solid black;
+    border-left: 0.1875rem solid black;
     height: auto;
 }
 
 .hl {
-    border-bottom: 3px solid black;
+    border-bottom: 0.1875rem solid black;
     width: auto;
-    margin: 60px 70px 0px 70px
+    margin: 3.75rem 4.375rem 0rem 4.375rem
 }
 
 .bold {
@@ -123,8 +123,8 @@ i {
 
 img {
     border-radius: 50%;
-    box-shadow: 3px 3px 10px rgba(0, 0, .2);
-    margin: 30px auto 10px auto;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, .2);
+    margin: 1.875rem auto 0.625rem auto;
 }
 
 .center {
@@ -135,48 +135,48 @@ img {
 }
 
 .frame {
-    border: 3px solid black;
+    border: 0.1875rem solid black;
 }
 
 footer {
     text-align: right;
     color: white;
     background-color: rgb(118, 79, 68);
-    padding: 5px 30px 5px 0px;
-    border-top: 10px solid black;
+    padding: 0.3125rem 1.875rem 0.3125rem 0rem;
+    border-top: 0.625rem solid black;
 }
 
 .send-flowers {
-    font-family: 'Send Flowers';font-size: 60px;
+    font-family: 'Send Flowers';font-size: 3.75rem;
     font-weight: bold;
 }
     
 .cream-soda {
-    font-family: 'Cherry Cream Soda';font-size: 30px;
+    font-family: 'Cherry Cream Soda';font-size: 1.875rem;
 }
 
 .montserrat1 {
-    font-family: 'Montserrat';font-size: 26px;
+    font-family: 'Montserrat';font-size: 1.624rem;
 }
 
 .montserrat {
-    font-family: 'Montserrat';font-size: 22px;
+    font-family: 'Montserrat';font-size: 1.375rem;
 }
 
 .nunito {
-    font-family: 'Nunito';font-size: 23px;
+    font-family: 'Nunito';font-size: 1.4375rem;
     font-weight: bolder;
 }
 
 .margin {
-    margin: 15px;
+    margin: 0.9375rem;
 }
 
 .important-note {
     font-size: large;
     font-style: normal;
     text-align: justify;
-    margin: 20px 200px 20px 200px;
+    margin: 1.25rem 12.5rem 1.25rem 12.5rem;
     padding: 10px;
-    border: solid 5px black;
+    border: solid 0.3125rem black;
 }
