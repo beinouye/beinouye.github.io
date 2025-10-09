@@ -114,3 +114,8 @@ div {
     margin-left: 800px;
 }
 
+.update-note {
+    color: brown;
+    font-size: small;
+    font-family: fantasy;
+}
